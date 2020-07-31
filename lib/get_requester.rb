@@ -9,7 +9,7 @@ require "net/http"
   end
   
   def get_response_body
-    
+    uri = URI
   end
   
 end
