@@ -14,7 +14,9 @@ require "net/http"
     response.body
   end
   
-  def parse_
+  def parse_json
+    
+  end
   
     
 end
