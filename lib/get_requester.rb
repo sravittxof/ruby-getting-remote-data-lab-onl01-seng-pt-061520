@@ -11,11 +11,11 @@ require "net/http"
   def get_response_body
     @uri = URI.parse(@url))
     response = Net::HTTP.get_response(@uri)
-    response.body
+    response
   end
   
   def parse_json
-    
+    JSON.parse(get_response_body.body)
   end
   
     
