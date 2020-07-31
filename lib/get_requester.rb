@@ -15,7 +15,7 @@ require "json"
   end
   
   def parse_json
-    JSON.parse(get_response_body.body)
+    JSON.parse(self.get_response_body)
   end
   
     
